@@ -1,0 +1,33 @@
+/* Algemene pagina stijl */
+body {
+    background-color: #f7e6f5;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+h1{
+    font-size: 40px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+h2{
+    font-size: 20px;
+    align-items: center;
+}
+
+/* Clear All knop stijl */
+.clear-button {
+    width: 100%;
+    padding: 10px;
+    justify-content: end ;
+    background-color: #d633ff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
