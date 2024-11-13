@@ -1,16 +1,13 @@
 fetch('https://dragonball-api.com/api/characters')
 .then((response) => response.json())
-.then((data) => {
-    console.log(data);
+.then((country) => {
+    console.log(country);
     let out = '';
-    for (let character of data.items) {
+    for (let country of country) {
         out += `
         <section>
-            <h2>${character.name}</h2>
-            <p>Ki: ${character.ki}</p>
-            <p>Max Ki: ${character.maxKi}</p>
-            <p>Race: ${character.race}</p>
-              <img src= ${character.image} alt="">
+            <h2>${country.name}</h2>
+            <p>Ki: ${country.flag}</p>
         </section>
         `;
     }
